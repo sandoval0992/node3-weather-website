@@ -33,14 +33,14 @@ app.get('/about', (req, res) => {
     res.render('about',{
         title : 'About me',
         author: 'Ivan Sandoval',
-        imagePath : '/img/sandoval.jpg'
+        imagePath : '/img/cat.png'
     })
 })
 
 app.get('/help', (req, res) => {
     res.render('help', {
-        message : 'If you need support, please send an email to: weatherappsupport@gmail.com',
-        title : 'Help!',
+        message : 'Contact us: weatherapp@support.com',
+        title : 'Help',
         author: 'Ivan Sandoval'
     })
 })
